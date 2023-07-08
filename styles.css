@@ -1,0 +1,51 @@
+/* h1,
+h2 {
+  color: #00425a;
+} */
+
+body {
+  line-height: 3;
+  background-color: #121212;
+  color: whitesmoke;
+}
+
+.btn {
+  background-color: #5c6bc0;
+  color: whitesmoke;
+  width: 10em;
+  height: 4em;
+  margin: 2% 2% 2% 0%;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #00425a;
+  color: white;
+  border: solid 1px #00425a;
+}
+
+#skills {
+  line-height: 1.5;
+  margin-top: 2%;
+}
+
+.card-img-top {
+  height: 18rem;
+}
+
+#projects {
+  margin: 2% auto;
+  line-height: 1.5;
+}
+
+.heading {
+  margin-top: 2%;
+}
+
+footer {
+  padding: 1%;
+  text-align: center;
+  line-height: 1;
+}
