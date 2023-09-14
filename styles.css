@@ -29,6 +29,7 @@ body {
 #skills {
   line-height: 1.5;
   margin-top: 2%;
+  padding: 2rem;
 }
 
 .card-img-top {
@@ -48,4 +49,35 @@ footer {
   padding: 1%;
   text-align: center;
   line-height: 1;
+}
+
+.responsive-flex {
+  /* default mobile styles */
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 1rem;
+
+  /* resposive layout for wider screens */
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
+}
+
+.skill {
+  width: 100%;
+
+  @media screen and (min-width: 1200px) {
+    width: 30%;
+  }
+}
+
+#skills .responsive-flex {
+  gap: 1rem;
+
+  @media screen and (min-width: 200px) {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
